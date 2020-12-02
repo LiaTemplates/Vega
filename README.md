@@ -3,7 +3,7 @@ author:   André Dietrich
 
 email:    LiaScript@web.de
 
-version:  0.0.1
+version:  0.0.2
 
 language: en
 
@@ -39,7 +39,9 @@ script:   https://cdn.jsdelivr.net/npm/vega@5.9.0
   setTimeout(function(e) {
     let vlSpec = @1
     vegaEmbed('#vis@0', vlSpec)
-  }, 1000);
+  }, 10);
+
+  console.log("done")
 </script>
 
 @end
